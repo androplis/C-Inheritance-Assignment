@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		0456DD3B256DD84600A5F198 /* C++ Inheritance Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Inheritance Assignment"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0456DD3E256DD84600A5F198 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0456DD46256DD96D00A5F198 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				0456DD3E256DD84600A5F198 /* main.cpp */,
+				0456DD46256DD96D00A5F198 /* Vehicle.h */,
 			);
 			path = "C++ Inheritance Assignment";
 			sourceTree = "<group>";
