@@ -6,10 +6,10 @@
 #include <iostream>
 using namespace std;
 
-// === Default Constructor ====
-Vehicle::Vehicle() {
-    manufacturer = "";
-    yearBuilt = 0;
+// === Constructors ====
+Vehicle::Vehicle(string newMan int newYearBuilt) {
+    manufacturer = newMan;
+    yearBuilt = newYearBuilt;
 }
 
 // === Mutator Methods ===
