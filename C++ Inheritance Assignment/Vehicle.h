@@ -20,6 +20,7 @@ class Vehicle {
         void setYearBuilt(int);
         string getManufacturer();
         int getYearBuilt();
+        void displayInfo();
 };
 
 #endif /* Vehicle_h */
