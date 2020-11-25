@@ -5,13 +5,12 @@
 #include <iostream>
 #include <string>
 #include "Vehicle.h"
+#include "Car.h"
 using namespace std;
 
 int main() {
     // insert code here...
-    Vehicle car;
-    car.setManufacturer("Ford");
-    car.setYearBuilt(2001);
+    Car car(20, "Ford", 2001);
     car.displayInfo();
     
     cout << endl << endl;

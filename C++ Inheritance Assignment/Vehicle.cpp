@@ -7,7 +7,7 @@
 using namespace std;
 
 // === Constructors ====
-Vehicle::Vehicle(string newMan int newYearBuilt) {
+Vehicle::Vehicle(string newMan, int newYearBuilt) {
     manufacturer = newMan;
     yearBuilt = newYearBuilt;
 }
