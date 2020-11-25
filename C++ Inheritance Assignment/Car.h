@@ -13,6 +13,7 @@ class Car : public Vehicle {
 private:
     int numDoors;
 public:
+    Car();
     Car(int, string, int);
     void setNumDoors(int);
     int getNumDoors();

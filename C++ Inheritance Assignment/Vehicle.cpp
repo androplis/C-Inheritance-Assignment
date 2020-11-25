@@ -6,6 +6,11 @@
 #include <iostream>
 
 // === Constructors ====
+Vehicle::Vehicle() {
+    manufacturer = "";
+    yearBuilt = 0;
+}
+
 Vehicle::Vehicle(string newMan, int newYearBuilt) {
     manufacturer = newMan;
     yearBuilt = newYearBuilt;

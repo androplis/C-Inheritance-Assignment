@@ -6,6 +6,10 @@
 #include <iostream>
 
 // === Constructors ===
+Car::Car() {
+    numDoors = 0;
+}
+
 Car::Car(int newNumDoors, string newMan, int newYearBuilt) : Vehicle(newMan, newYearBuilt) {
     numDoors = newNumDoors;
 }

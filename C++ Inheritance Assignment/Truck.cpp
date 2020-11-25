@@ -6,6 +6,10 @@
 #include "Truck.h"
 
 // === Constructors ===
+Truck::Truck() {
+    towingCapacity = 0;
+}
+
 Truck::Truck(int newTowingCapacity, string newMan, int newYearBuilt) : Vehicle(newMan, newYearBuilt) {
     towingCapacity = newTowingCapacity;
 }
