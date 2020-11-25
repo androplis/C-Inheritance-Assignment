@@ -4,7 +4,6 @@
 
 #include "Car.h"
 #include <iostream>
-using namespace std;
 
 // === Constructors ===
 Car::Car(int newNumDoors, string newMan, int newYearBuilt) : Vehicle(newMan, newYearBuilt) {

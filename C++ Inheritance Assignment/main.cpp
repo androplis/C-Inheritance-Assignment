@@ -6,12 +6,13 @@
 #include <string>
 #include "Vehicle.h"
 #include "Car.h"
+#include "Truck.h"
 using namespace std;
 
 int main() {
     // insert code here...
-    Car car(20, "Ford", 2001);
-    car.displayInfo();
+    Truck truck(200000, "Ford", 2001);
+    truck.displayInfo();
     
     cout << endl << endl;
     return 0;

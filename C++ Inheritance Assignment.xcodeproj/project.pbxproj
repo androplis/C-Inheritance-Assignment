@@ -10,6 +10,7 @@
 		0456DD3F256DD84600A5F198 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0456DD3E256DD84600A5F198 /* main.cpp */; };
 		0456DD49256DDB5100A5F198 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0456DD48256DDB5100A5F198 /* Vehicle.cpp */; };
 		0456DD53256DDE7700A5F198 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0456DD52256DDE7700A5F198 /* Car.cpp */; };
+		0456DD58256DE27800A5F198 /* Truck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0456DD57256DE27800A5F198 /* Truck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		0456DD48256DDB5100A5F198 /* Vehicle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
 		0456DD50256DDDA400A5F198 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		0456DD52256DDE7700A5F198 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		0456DD55256DE1D000A5F198 /* Truck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Truck.h; sourceTree = "<group>"; };
+		0456DD57256DE27800A5F198 /* Truck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Truck.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				0456DD48256DDB5100A5F198 /* Vehicle.cpp */,
 				0456DD50256DDDA400A5F198 /* Car.h */,
 				0456DD52256DDE7700A5F198 /* Car.cpp */,
+				0456DD55256DE1D000A5F198 /* Truck.h */,
+				0456DD57256DE27800A5F198 /* Truck.cpp */,
 			);
 			path = "C++ Inheritance Assignment";
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				0456DD53256DDE7700A5F198 /* Car.cpp in Sources */,
 				0456DD49256DDB5100A5F198 /* Vehicle.cpp in Sources */,
 				0456DD3F256DD84600A5F198 /* main.cpp in Sources */,
+				0456DD58256DE27800A5F198 /* Truck.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
